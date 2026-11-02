@@ -17,6 +17,8 @@
 
 ## Overview
 
+> Hardened fork: network-facing and scripting modules (FTP Server, Web Clipboard, Swipeable Custom Top Row, Floating Web Search, Custom Theme) are not published in the patch bundle.
+
 Gboard Patches is a public Morphe source for a curated set of Gboard enhancements, including both global usability improvements and Taiwan-focused features for local input habits and day-to-day use.
 
 ## Included Patches
@@ -38,40 +40,9 @@ Features designed and built by this project rather than simply unlocking an exis
 </details>
 
 <details>
-  <summary><code>Web Clipboard</code></summary>
-
-  Hosts a phone-powered Web Clipboard portal that lets desktop browsers sync with Gboard over the same LAN, with a pairing code gate and an optional Quick Settings Tile.
-
-  Preview:
-
-  <img alt="Web Clipboard pairing gate" src="assets/features/web-clipboard/01-pairing-gate.png" width="720">
-
-  <img alt="Web Clipboard conversation view" src="assets/features/web-clipboard/02-conversation-view.png" width="720">
-
-</details>
-
-<details>
-  <summary><code>Floating Web Search</code></summary>
-
-  Open a floating web page directly from Gboard to quickly search for the information you need.
-</details>
-
-<details>
-  <summary><code>Custom Theme</code></summary>
-
-Import custom ZIP themes and beautiful themes from the official Rboard repository.
-</details>
-
-<details>
   <summary><code>Frosted Glass</code></summary>
 
   Adds live background blur and custom-theme transparency to the keyboard. Available on Android 12+ devices that support cross-window blur, with custom themes such as Animal Black.
-</details>
-
-<details>
-  <summary><code>FTP Server</code></summary>
-
-  Hosts an FTP server on your phone so desktop FTP clients can browse, upload, download, and resume file transfers over the same LAN. It supports anonymous or password-protected access, a configurable control and passive port range, read-only mode, <code>/sdcard</code> or a user-selected folder as the root, live transfer progress, retained partial uploads, and an optional Quick Settings Tile.
 </details>
 
 <details>
@@ -85,12 +56,6 @@ Import custom ZIP themes and beautiful themes from the official Rboard repositor
 
   Add Select All, Copy, Cut and Paste to the menu. Drag them to the top toolbar and
   use them with different keyboard languages in supported editors.
-</details>
-
-<details>
-  <summary><code>Swipeable Custom Top Row</code></summary>
-
-  Lets you swipe the keyboard top row horizontally to open customizable text and JavaScript slots.
 </details>
 
 <details>
